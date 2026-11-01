@@ -1,0 +1,9 @@
+{% extends "reviews/base.html" %}
+
+{% block title %} Thank you! {% endblock %}
+
+{% block content %}
+<h1>Thank you!</h1>
+<p>Rating: {{ review.rating }}</p>
+<p>{{ message }}</p>
+{% endblock %}

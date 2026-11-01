@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {% block title %}
+    Իմ Կայքը
+    {% endblock %}
+  </title>
+  <link rel="stylesheet" href="{% static "reviews/styles.css" %}">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="/">Գրել կարծիք</a></li>
+        <li><a href="/reviews">Բոլոր կարծիքները</a></li>
+        <li><a href="/profiles/">Ավելացնել նկար</a></li>
+        <li><a href="/profiles/list">Բոլոր նկարները</a></li>
+        <li><a href="/admin">Ադմին պանել</a></li>
+      </ul>
+    </nav>
+  </header>
+  {% block content %}
+  {% endblock %}
+</body>
+</html>
