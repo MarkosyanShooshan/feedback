@@ -47,36 +47,31 @@ feedback/
 └── .gitignore              # Ignored files list
 🚀 Installation & Setup
 Clone the repository:
-code
-Bash
+```
 git clone https://github.com/MarkosyanShooshan/feedback.git
 cd feedback
 Create and activate a virtual environment:
 Windows:
-code
-Bash
+```
 python -m venv venv
 venv\Scripts\activate
 macOS / Linux:
-code
-Bash
+```
 python3 -m venv venv
 source venv/bin/activate
 Install dependencies:
-code
-Bash
+```
 pip install -r requirements.txt
 Apply database migrations:
-code
-Bash
+```
 python manage.py migrate
 Run the development server:
-code
-Bash
+```
 python manage.py runserver
 Open http://127.0.0.1:8000/ in your browser.
+
 <span id="armenian"></span>
-🇦🇲 Հայերեն
+## 🇦🇲 Հայերեն
 Դինամիկ վեբ-հավելված՝ ստեղծված Python-ով և Django ֆրեյմվորքով։ Նախագիծը ցուցադրում է տվյալների հավաքագրման և ձևաթղթերի մշակման (Django Forms & ModelForms), դասերի վրա հիմնված տեսարանների (Class-Based Views), սեսիաների (Sessions) և մեդիա ֆայլերի ներբեռնման հնարավորությունները։
 📌 Նախագծի մասին
 Feedback նախագծի հիմնական նպատակն է սովորել և կիրառել օգտատերերի կարծիքների ու հետադարձ կապի անվտանգ ընդունումն ու մշակումը։ Հավելվածն ընդգրկում է ձևաթղթերի վալիդացիա (validation), տվյալների պահպանում բազայում, ինչպես նաև սեսիաների միջոցով օգտատիրոջ գործողությունների (օր.՝ «նախընտրած կարծիք» ընտրելու) կառավարում։
@@ -86,5 +81,7 @@ Class-Based Views (CBVs) — Օբյեկտային մոտեցմամբ տեսար�
 Սեսիաներ և Քուքիներ (Sessions & Cookies) — Օգտատիրոջ ընտրած «նախընտրելի» կարծիքների պահպանում բրաուզերի սեսիայում՝ առանց բազան ծանրաբեռնելու։
 Ֆայլերի և Նկարների Ներբեռնում — Մեդիա ֆայլերի (օր.՝ պրոֆիլի նկարների) ընդունման և պահպանման կառավարում։
 Մոդուլային Շաբլոններ — Բազային HTML կառուցվածք և CSS ոճավորում։
+
 👤 Հեղինակ (Author)
-Շուշան Մարկոսյան — GitHub Profile
+
+- **Shooshan Markosyan** — [GitHub Profile](https://github.com/MarkosyanShooshan)
