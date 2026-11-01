@@ -45,33 +45,48 @@ feedback/
 ├── manage.py               # Django execution script
 ├── requirements.txt        # Project dependencies
 └── .gitignore              # Ignored files list
+
+
 🚀 Installation & Setup
 Clone the repository:
 ```
 git clone https://github.com/MarkosyanShooshan/feedback.git
 cd feedback
+
+
 Create and activate a virtual environment:
 Windows:
 ```
 python -m venv venv
 venv\Scripts\activate
+
+
 macOS / Linux:
 ```
 python3 -m venv venv
 source venv/bin/activate
+
+
 Install dependencies:
 ```
 pip install -r requirements.txt
+
+
 Apply database migrations:
 ```
 python manage.py migrate
+
+
 Run the development server:
 ```
 python manage.py runserver
 Open http://127.0.0.1:8000/ in your browser.
 
+
 <span id="armenian"></span>
 ## 🇦🇲 Հայերեն
+
+
 Դինամիկ վեբ-հավելված՝ ստեղծված Python-ով և Django ֆրեյմվորքով։ Նախագիծը ցուցադրում է տվյալների հավաքագրման և ձևաթղթերի մշակման (Django Forms & ModelForms), դասերի վրա հիմնված տեսարանների (Class-Based Views), սեսիաների (Sessions) և մեդիա ֆայլերի ներբեռնման հնարավորությունները։
 📌 Նախագծի մասին
 Feedback նախագծի հիմնական նպատակն է սովորել և կիրառել օգտատերերի կարծիքների ու հետադարձ կապի անվտանգ ընդունումն ու մշակումը։ Հավելվածն ընդգրկում է ձևաթղթերի վալիդացիա (validation), տվյալների պահպանում բազայում, ինչպես նաև սեսիաների միջոցով օգտատիրոջ գործողությունների (օր.՝ «նախընտրած կարծիք» ընտրելու) կառավարում։
@@ -84,4 +99,4 @@ Class-Based Views (CBVs) — Օբյեկտային մոտեցմամբ տեսար�
 
 👤 Հեղինակ (Author)
 
-- **Shooshan Markosyan** — [GitHub Profile](https://github.com/MarkosyanShooshan)
+- **Shooshan Markosyan** — [GitHub Profile] (https://github.com/MarkosyanShooshan)
